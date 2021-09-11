@@ -7,7 +7,6 @@ import { useState } from 'react';
 import Items from './items';
 import Alert from '@material-ui/lab/Alert';
 import Grow from '@material-ui/core/Grow';
-import { useScrollTrigger } from '@material-ui/core';
 
 const styles = makeStyles( theme => ({
     root: {
